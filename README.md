@@ -2,6 +2,7 @@
 #### Video Demo: < >
 #### Description: Chrome extension to change the background of the page to make the page easier to read.
 
+##Files Included
 
 **manifest.json** contains the information about the extension, including links to the necessary files and permissions for APIs. It also contains a message to the user about more color choices under options.
 
@@ -15,7 +16,7 @@ What happens once the user clicks on the preferred color is controlled by the sc
 
 The **images** folder contains the icons for the toolbar in various pixel sizes so the browser can choose the right one for the user's screen and device.
 
-Design choices
+### Design choices
 
 I wanted to make this extension because I discovered that reading webpages with these pastel colors as a backround is easier on my eyes. I notice that most extensions seemed to focus on darkmode or inverting the colors to black and white, so I decided to try coding my own extension. I decided to include 4 pastel colors for the background instead of the original color picker because a) the color picker would be too overwhelmin to choose from constantly and b) the text would not have high enough contrast dependin on the color chosen.
 
