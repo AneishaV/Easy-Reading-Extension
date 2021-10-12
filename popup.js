@@ -1,4 +1,5 @@
 // Initialize button with user's preferred color
+
 let changeColor = document.getElementById("changeColor");
 
 // Get color from storage and change button to that color

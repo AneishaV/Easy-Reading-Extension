@@ -4,7 +4,7 @@ const presetButtonColors = ["#d4c4e7", "#eda58e", "#98bdef", "#efa9a0"];
 
 // Reacts to a button click by marking the selected button and saving selection
 function handleButtonClick(event) {
-    // Remove styling from previously selected c
+    // Remove styling from previously selected 
     let current = event.target.parentElement.querySelector(
         `.${selectedClassName}`
     );
