@@ -1,8 +1,8 @@
-#**Easy-Reading Chrome Extension**
+# **Easy-Reading Chrome Extension**
 #### Video Demo: < >
 #### Description: Chrome extension to change the background of the page to make the page easier to read.
 
-##Files Included
+## Files Included
 
 **manifest.json** contains the information about the extension, including links to the necessary files and permissions for APIs. It also contains a message to the user about more color choices under options.
 
