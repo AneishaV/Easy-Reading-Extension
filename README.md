@@ -1,5 +1,5 @@
 # **Easy-Reading Chrome Extension**
-#### Video Demo: < >
+#### Video Demo: <https://youtu.be/wdREb5Rt0VU>
 #### Description: Chrome extension to change the background of the page to make it easier to read.
 
 ## Files Included
