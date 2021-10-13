@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "Easy Reading",
+    "description": "Change background color to read webpages more easily.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
@@ -8,7 +8,25 @@
     },
     "permissions": ["storage", "activeTab", "scripting"],
     "action": {
-        "default_popup": "popup.html"
+        "default_title": "Click OPTIONS to see more color choices!",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/16p.png",
+            "32": "/images/32p.png",
+            "48": "/images/48p.png",
+            "128": "/images/128p.png"
+          }
     },
-    "options_page": "options.html"
+    "icons": {
+        "16": "/images/16p.png",
+            "32": "/images/32p.png",
+            "48": "/images/48p.png",
+            "128": "/images/128p.png"
+    },
+    "options_page": "options.html",
+    "options_ui": {
+
+        "page": "options.html",
+        "open_in_tab": false
+    }
 }
