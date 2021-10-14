@@ -22,7 +22,8 @@ The **Images** folder contains the icons for the toolbar in various pixel sizes.
 ### Extension Inspiration
 A while ago, I visited a webpage that allowed users to change the background and test which color was best for reading webpage text. After that, I wondered if I could find an extension to do that for me. But after some searching, most extensions seemed to focus on changing backgrounds to dark mode or inverting the colors of the background and text (another version of dark mode). While dark mode has its place, it wasn’t necessarily the easiest thing to use to read webpages in the daytime, so I decided to try coding my own extension for CS50’s Final Project.
 
-I referenced the Google Chrome Extensions [documentation] (https://developer.chrome.com/docs/extensions) extensively for this project, especially to add an options feature that pops up on the extension page and not on a separate HTML webpage. 
+I referenced the Google Chrome Extensions [documentation] (https://developer.chrome.com/docs/extensions) extensively for this project, especially to add an options feature that pops up on the extension page and not on a separate HTML webpage. That particular code is added to the manifest.json under options_page.
+
 ```
  "options_page": "options.html",
     "options_ui": {
